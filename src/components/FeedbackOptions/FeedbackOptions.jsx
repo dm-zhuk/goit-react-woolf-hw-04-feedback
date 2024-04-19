@@ -5,8 +5,8 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => {
     <div
       className="Feedback"
       style={{
-          display: 'flex',
-          padding: '20px 0',
+        display: 'flex',
+        padding: '20px 0',
       }}
     >
       {options.map((option, index) => (
